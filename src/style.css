@@ -1,13 +1,11 @@
 #main-section {
   display: flex;
-  /* background-color: #6c2d2d; */
   width: 100%;
   justify-content: space-evenly;
 }
 
 #left-art {
   width: 40%;
-  /* background-color: goldenrod; */
 }
 
 article {
