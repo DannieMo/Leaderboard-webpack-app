@@ -6,10 +6,6 @@
   <h1><b>
 LeaderboardList App
 </b></h1>
-<p>
-In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will develop a first working version of the app following a wireframe, but without styling - just functionality. In the following activities (milestone 2 and 3), I will consume the Leaderboard API using JavaScript async and await and add some styling. </p> <hr>
-<p>
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. </p>
 <br/>
 
 </div>
@@ -36,7 +32,19 @@ The leaderboard website displays scores submitted by different players. It also 
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 🛠 Built With
+<h1><b>
+LeaderboardList App
+</b></h1>
+<a name="about-project"></a>
+<p>
+In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will develop a first working version of the app following a wireframe, but without styling - just functionality. In the following activities (milestone 2 and 3), I will consume the Leaderboard API using JavaScript async and await and add some styling. </p> <br/>
+<p>
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. </p><hr>
+<br/>
+
+</div>
+
+🛠 Built With
 
 - HTML5
 - CSS
@@ -61,12 +69,6 @@ The leaderboard website displays scores submitted by different players. It also 
 - Understand and use JSON.
 - Make JavaScript code asynchronous.
 - Practice of all the knowledge i learned in this module.
-
-# 📖 LeaderboardList App
-
-<a name="about-project"></a>
-
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ### Future Features
 
