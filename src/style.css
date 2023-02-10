@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   box-sizing: border-box;
   font-weight: 500;
@@ -67,10 +67,6 @@ form {
 }
 
 button {
-  float: right;
-}
-
-button {
   padding: 1px 3px;
   background: #fff;
   font-size: 8px;
@@ -78,11 +74,12 @@ button {
   box-shadow: 2px 3px;
   border: 2px solid gray;
   cursor: pointer;
+  float: right;
 }
 
 input {
   margin-bottom: 10px;
   width: 100%;
   font-size: 11px;
-  padding: 3px 2px;
+  padding: 2px;
 }
