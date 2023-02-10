@@ -4,7 +4,7 @@
   <br/>
 
   <h1><b>
-LeaderboardList App
+LeaderBoard App
 </b></h1>
 <br/>
 
@@ -33,18 +33,18 @@ LeaderboardList App
 - [📝 License](#license)
 
 <h1><b>
-LeaderboardList App
+LeaderBoard App
 </b></h1>
 <a name="about-project"></a>
 <p>
-In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will develop a first working version of the app following a wireframe, but without styling - just functionality. In the following activities (milestone 2 and 3), I will consume the Leaderboard API using JavaScript async and await and add some styling. </p> <br/>
-<p>
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. </p><hr>
+The leaderboard website is a javascript, HTML, and css project that displays scores submitted by different players. All data is preserved thanks to the external Leaderboard API service. </p><hr>
 <br/>
 
 </div>
 
-🛠 Built With
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
 - HTML5
 - CSS
@@ -55,12 +55,12 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **Add user name**
+- **Add user score**
+- **Submit user score**
+- **Refresh Scores**
 
-- **It's a website built according to the design provided**
-- **An npm project built with webpack**
-- **Plain HTML markup with minimum styling (just to make the layout), styles will be implemented in milestone three**
-- **It allows users to displays scores submitted by different players. It also allows you to submit your score.**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Learning Objectives
 
@@ -72,26 +72,72 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ### Future Features
 
-- Sending and receiving data from/to the Leaderboard API.
-- Implement the form "Submit" button that will save a score for a game created by me.
+- **Navigation bar**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://danniemo.github.io/Leaderboard-webpack-app/dist/)
 
-- [Live Demo Link](https://github.com/DannieMo/Leaderboard-webpack-app.git)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
+```sh
+  npm install
+  npm run build
+  npm run watch
+  npm start
+```
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-**Just clone the project by runing the `git clone git@github.com/DannieMo/Leaderboard-webpack-app.git` command in your command line, and you are done.**
+Run the commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/DannieMo/Leaderboard-webpack-app.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-folder
+  node version 14/16
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm install
+  npm run build
+  npm start
+```
+
+### Deployment
+
+You can deploy this project using:
+
+- **GitHub Pages**
+- **Netlify**
+- **Heroku**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -101,6 +147,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@dannieMo](https://github.com/DannieMo/)
 - LinkedIn: [Daniel Majesty Owiri](https://linkedin.com/in/daniel-majesty-owiri/)
+- Twitter: [@MajestyOwiri](https://twitter.com/MajestyOwiri)
 
 <!-- CONTRIBUTING -->
 

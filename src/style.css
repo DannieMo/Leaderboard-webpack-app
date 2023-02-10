@@ -1,11 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 70%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  font-weight: 500;
+  background: rgb(31, 30, 36);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  background: rgb(89, 89, 112);
+  padding: 10px;
+  margin: 0 3px;
+}
+
 #main-section {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  padding: 15px 2px;
 }
 
-#left-art {
-  width: 40%;
+h1 {
+  font-size: 20px;
+}
+
+#left-cont {
+  width: 50%;
+}
+
+section p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+#right-cont {
+  width: 25%;
 }
 
 article {
@@ -13,12 +53,13 @@ article {
 }
 
 article :nth-child(even) {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 article p {
   margin: 0;
-  padding: 5px;
+  padding: 3px;
+  font-size: 10px;
 }
 
 form {
@@ -26,9 +67,19 @@ form {
 }
 
 button {
+  padding: 1px 3px;
+  background: #fff;
+  font-size: 8px;
+  font-weight: 400;
+  box-shadow: 2px 3px;
+  border: 2px solid gray;
+  cursor: pointer;
   float: right;
 }
 
 input {
   margin-bottom: 10px;
+  width: 100%;
+  font-size: 11px;
+  padding: 2px;
 }
